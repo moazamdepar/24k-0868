@@ -1,0 +1,41 @@
+# Algorithms
+2.	Create an algorithm that asks the user for a day number (1-365) and outputs the corresponding day of the week, assuming that January 1st is a Monday.
+Step1: Ask user to enter a day number from (1-365).
+Step2: Adjust the “day_number” by subtracting 1 to make it zero-based.
+Step3: Calculate the day of the week using the formula: day_of_week = (day_number - 1) % 7.
+Step4: Create a list that maps the numbers 0 to 6 to their corresponding day names:
+days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"].
+step5: display days[day_of_week].
+step6: print day name.
+3.	Develop an algorithm for a program that takes two numbers as input and finds the Greatest Common Divisor (GCD) of the two numbers using the Euclidean algorithm.
+Step1: Ask user to enter number1.
+Step2: Ask user to enter number2.
+Step3: Number2 is not zero.
+Step4: Calculate the reminder ‘r’ of ‘number1’ divided by ‘number2’
+Step5: Assign ‘n2’ to ‘n1’ and ‘r’ to ‘n2’.
+Step6: When ‘n2’ become zero, n1 contains the GCD.
+# pseudocode
+1.	Write pseudocode to find the smallest number among three given variables. Implement a decision-making structure to compare the variables.
+
+Start 
+Input num1 
+Input num2
+Input num3
+IF num1<num2 and num1<num3 THEN
+	Print “The smallest number is num1”
+ELSE IF num2<num1 and num2<num3 THEN 
+	Print” The smallest number is num2”
+ELSE num3<num1 and num3<num2 THEN
+	Print” The smallest number is num3”
+End 
+
+2.	Develop pseudocode for a basic calculator that performs multiplication and division. The pseudocode should prompt the user for two numbers and an operator, then display the result of the operation.
+
+Start 
+Input n1,n2
+SET product to 0
+SET division to 0 
+SET product to n1*n2
+SET division to n1/n2
+End 
+
