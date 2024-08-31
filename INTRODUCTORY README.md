@@ -1,5 +1,4 @@
 # Madni Moazam 
-## 24k-0868
 - I am a student in fast university.
 - It's my first semester.
 - My initial education is from APSAC petaro till intermediate.
